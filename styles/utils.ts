@@ -9,7 +9,7 @@ export const DefaultContainer = styled.div`
 export const Row = styled.div<{gap?: string}>`
     display: flex;
     flex-direction: row;
-    gap: ${(props)=>props.gap}
+    gap: ${(props)=>props.gap};
 `
 
 export const MarginTop = styled.div<{top?: string}>`
@@ -29,13 +29,13 @@ export const FlexColumnCenter = styled.div<{gap?: string}>`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: ${(props)=>props.gap}
+    gap: ${(props)=>props.gap};
 `
 export const FlexColumn = styled.div<{gap?: string, padding ?: string}>`
     display: flex;
     flex-direction: column;
     gap: ${(props)=>props.gap};
-    padding: ${(props)=>props.padding}
+    padding: ${(props)=>props.padding};
 `
 
 export const ScriptWrapper = styled.div`
