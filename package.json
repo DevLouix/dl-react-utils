@@ -1,0 +1,30 @@
+{
+  "name": "dl-react-utils",
+  "version": "1.0.0",
+  "description": "A libary for react components and utilities",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevLouix/dl-react-utils.git"
+  },
+  "keywords": [
+    "devlouix",
+    "dl",
+    "dl-react-utils",
+    "react"
+  ],
+  "author": "Devlouix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevLouix/dl-react-utils/issues"
+  },
+  "homepage": "https://github.com/DevLouix/dl-react-utils#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.5"
+  }
+}
